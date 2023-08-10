@@ -1,0 +1,63 @@
+:root {
+  --primary-red: hsl(0, 100%, 67%);
+  --primary-yellow: hsl(39, 100%, 56%);
+  --primary-teal: hsl(166, 100%, 37%);
+  --primary-blue: hsl(234, 85%, 45%);
+  --gradient-slate-blue-bg: hsl(252, 100%, 67%);
+  --gradient-royal-blue-bg: hsl(241, 81%, 54%);
+  --gradient-violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --gradient-persian-blue-circle: hsla(241, 72%, 46%, 0);
+  --neutral-white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-blue: hsl(224, 30%, 27%);
+}
+
+main {
+  display: flex;
+  max-width: 750px;
+  flex-wrap: wrap;
+}
+
+section {
+  max-width: 375px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+/* Result side*/
+
+.result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: var(--light-lavender);
+}
+
+.score {
+  text-align: center;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score-number {
+  font-size: xx-large;
+  font-weight: 700;
+  color: var(--neutral-white);
+}
+
+/* Footer*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
