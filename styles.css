@@ -13,10 +13,12 @@
   --dark-blue: hsl(224, 30%, 27%);
 }
 
+
 main {
   display: flex;
   max-width: 750px;
   flex-wrap: wrap;
+font-family: 'Hanken Grotesk', sans-serif;
 }
 
 section {
@@ -46,7 +48,7 @@ h1 {
 }
 
 .score-number {
-  font-size: xx-large;
+  font-size: 3.5rem;
   font-weight: 700;
   color: var(--neutral-white);
 }
